@@ -1,0 +1,13 @@
+[package]
+name = "open62541-sys"
+version = "0.1.0"
+authors = ["Jörn-Michael Miehe <miehe@dp-electronics.de>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cmake = "0.1.41"
+bindgen = "0.51"
